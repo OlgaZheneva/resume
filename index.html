@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Это сайт - резюме Ольги Соколовой-Жунёвой">
+    <meta name="keywords" content="olga, cv, resume">
+    <title>Olga Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="olga.jpg" alt="Соколова-Жунёва Ольга">
+            <div class="info_text">
+                <h1>Ольга Соколова-Жунёва</h1>
+                <p>Я основатель одноименного <strong>YouTube-канала</strong> и онлайн-магазина товаров для
+                    рукоделия<strong>"Sherstinka Eco"</strong>.</p>
+                <p>Я люблю <em>путешествовать, охоту с борзыми собаками, рыбалку и сыроделие.</em></p>
+                <h4>Список социальных сетей:</h4>
+                <a href="https://vk.com/olgazheneva" target="_blank">В Контакте</a>
+                |
+                <a href="https://www.youtube.com/@OLG12201" target="_blank">YouTube</a>
+                |
+                <a href="http://t.me/Sherstinkaeco" target="_blank">Telegram</a>
+            </div>
+        </div>
+
+        <div class="card bg_green">
+            <h2>Мое хобби:</h2>
+            <ol class="list">
+                <li>Путешестия</li>
+                <li>Рыбалка</li>
+                <li>Охота с борзыми</li>
+                <li>Чтение</li>
+                <li>Программирование</li>
+            </ol>
+        </div>
+        <div class="card bg_red">
+            <h2>Опыт работы:</h2>
+            <table class="table">
+                <thead>
+                    <!-- <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr> -->
+                <tbody>
+                    <tr>
+                        <td>Школа</td>
+                        <td>Преподаватель информатикии и математики</td>
+                        <td>2001 - 2005</td>
+                    </tr>
+                    <tr>
+                        <td>Сбербанк</td>
+                        <td>Заведущая отделением</td>
+                        <td>2005 - 2007</td>
+                    </tr>
+                    <tr>
+                        <td>YouTube</td>
+                        <td>Bloger</td>
+                        <td>2010 - 2021</td>
+                    </tr>
+                    <tr>
+                        <td>Likee Live</td>
+                        <td>Agent</td>
+                        <td>2022 - по н.вр.</td>
+                    </tr>
+                    <tr>
+                        <td>Likee Live</td>
+                        <td>Bloger</td>
+                        <td>2022 - по н.вр.</td>
+                    </tr>
+                </tbody>
+                </thead>
+            </table>
+        </div>
+        <div class="card bg_yellow ">
+            <h2>Мои курсы:</h2>
+            <ul class="link-list">
+                <li><a href="#">HTML&CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Git</a></li>
+                <li><a href="#">React</a></li>
+            </ul>
+        </div>
+
+
+        <div class="card">
+
+            <form action="#" class="form">
+                <h2>Связаться со мной</h2>
+
+                <div class="form_row">
+
+                    <div class="form_group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Ваш еmail:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+
+                <div class="form_group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
